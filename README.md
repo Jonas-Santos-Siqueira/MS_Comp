@@ -155,7 +155,7 @@ fits **MSComp(4,2)**, and produces the “paper-style” probability figures (tw
 
 **Run:**
 ```bash
-python example/generate_mscomp_synthetic_banner.py --outdir figures --seed 123
+python example/example_mscomp.py --outdir figures --seed 123
 ```
 
 **Outputs:**
