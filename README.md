@@ -2,9 +2,9 @@
 
 Markov-switching **mean–variance component** model (MS-Comp) with **independent chains** for the mean and the variance:
 
-\[
+$$
 y_t = a_{S^m_t} + \sum_{\ell=1}^p \phi_\ell\, y_{t-\ell} + \varepsilon_t,\quad \varepsilon_t \sim \mathcal{N}(0, \sigma^2_{S^v_t})
-\]
+$$
 
 - Two independent Markov chains with transitions \(P_m\) and \(P_v\); total transition \(P = P_v \otimes P_m\).
 - Options for **upper‑triangular \(P_m\)** (no backward moves) and **absorbing last mean regime** (permanent break).
