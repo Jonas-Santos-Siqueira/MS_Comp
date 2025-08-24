@@ -148,6 +148,27 @@ def dynamic_factor_to_mscomp(
 
 ---
 
+## Example — Synthetic MS-Comp (paper-style plot)
+
+The script below generates a synthetic AR(2) series with 4 mean regimes and 2 variance regimes,
+fits **MSComp(4,2)**, and produces the “paper-style” probability figures (two panels) plus a combined banner.
+
+**Run:**
+```bash
+python example/generate_mscomp_synthetic_banner.py --outdir figures --seed 123
+```
+
+**Outputs:**
+- `figures/mscomp_fit_top_synth.png` — P[Mean Regime 1] and P[Mean Regime 3] with shaded high-variance bands  
+- `figures/mscomp_fit_bottom_synth.png` — P[Mean Regime 1] with shaded high-variance bands  
+- `figures/mscomp_fit_synth_banner.png` — combined banner (two panels stacked)
+
+**Preview:**
+![MS-Comp synthetic banner](figures/mscomp_fit_synth_banner.png)
+
+---
+
+
 ## Model‑selection & diagnostics
 
 - Try `ar_order ∈ {0,1,2,3}` and choose by AIC/BIC (use `res_ms.loglike`).
