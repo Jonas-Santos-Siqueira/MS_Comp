@@ -164,7 +164,7 @@ python example/generate_mscomp_synthetic_banner.py --outdir figures --seed 123
 - `figures/mscomp_fit_synth_banner.png` — combined banner (two panels stacked)
 
 **Preview:**
-![MS-Comp synthetic banner](figures/mscomp_fit_synth_banner.png)
+![MS-Comp synthetic banner](figures/mscomp_fit_bottom_synth.png)
 
 ---
 
