@@ -53,7 +53,7 @@ probs_var  = res.var_regime_probs   # shape (T, k_var)
 
 ## Option A — PCA factor wrapper (already included)
 
-If you simply want a quick common factor from a panel $$Y_{t}$$ $$T×N$$ via PCA and then fit MS‑Comp on it:
+If you simply want a quick common factor from a panel $$Y_{t}$$, $$T×N$$ via PCA and then fit MS‑Comp on it:
 
 ```python
 import numpy as np
