@@ -166,8 +166,8 @@ python example/example_mscomp.py --outdir figures --seed 123
 **Preview:**
 ![MS-Comp synthetic banner](figures/mscomp_fit_bottom_synth.png)
 
+**Illustration created as a provisional illustrative example**
 ---
-
 
 ## Model‑selection & diagnostics
 
