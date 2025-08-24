@@ -6,8 +6,8 @@ $$
 y_t = a_{S^m_t} + \sum_{\ell=1}^p \phi_\ell\, y_{t-\ell} + \varepsilon_t,\quad \varepsilon_t \sim \mathcal{N}(0, \sigma^2_{S^v_t})
 $$
 
-- Two independent Markov chains with transitions \(P_m\) and \(P_v\); total transition \(P = P_v \otimes P_m\).
-- Options for **upper‑triangular \(P_m\)** (no backward moves) and **absorbing last mean regime** (permanent break).
+- Two independent Markov chains with transitions $$P_m$$ and $$P_v$$; total transition $$P = P_v \otimes P_m$$.
+- Options for **upper‑triangular $$P_m$$** (no backward moves) and **absorbing last mean regime** (permanent break).
 - Estimation by direct MLE using the Hamilton filter on the combined state-space and a simple backward smoother.
 - Supports AR(p) in the conditional mean (MA(q) can be added via a state-space extension).
 
@@ -53,7 +53,7 @@ probs_var  = res.var_regime_probs   # shape (T, k_var)
 
 ## Option A — PCA factor wrapper (already included)
 
-If you simply want a quick common factor from a panel \(Y_{t}\) (T×N) via PCA and then fit MS‑Comp on it:
+If you simply want a quick common factor from a panel $$Y_{t}$$ $$T×N$$ via PCA and then fit MS‑Comp on it:
 
 ```python
 import numpy as np
