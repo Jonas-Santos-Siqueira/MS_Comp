@@ -127,6 +127,7 @@ def dynamic_factor_to_mscomp(
                         error_order=error_order, error_cov_type=error_cov_type)
     res_dfm = mod.fit(disp=False, maxiter=500)
     f = res_dfm.factors.smoothed.iloc[:, 0].to_numpy()
+    
     # Align sign to an anchor series if provided
     if flip_sign_anchor is not None:
         common_idx = Y.index.intersection(flip_sign_anchor.index)
