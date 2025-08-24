@@ -1,4 +1,4 @@
-# mscomp (Python)
+# MSComp (Python)
 
 Markov-switching **mean–variance component** model (MS-Comp) with **independent chains** for the mean and the variance:
 
@@ -163,3 +163,13 @@ def dynamic_factor_to_mscomp(
 - `mscomp/utils.py` — helpers (softmax transitions, Kronecker, etc.).
 - `mscomp/demo_synth.py` — synthetic demo.
 - `mscomp/README.md` — this file.
+
+---
+
+## References
+
+- Kim, C. and Nelson, C. (1999). *State-Space Models with Regime-Switching: Classical and Gibbs-Sampling Approaches with Applications*. MIT Press, Cambridge, Massachusetts.
+
+- King, R. G., Plosser, C. I., Stock, J. H., & Watson, M. W. *Stochastic Trends and Economic Fluctuations*.
+
+- Doornik, J. A. (2013). *A Markov-switching model with component structure for US GNP*. Economics Letters, 118, 265–268.
