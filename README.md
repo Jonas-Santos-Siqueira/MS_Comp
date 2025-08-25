@@ -192,7 +192,7 @@ python example/example_mscomp.py --outdir figures --seed 123
 ## References
 
 - Kim, C. and Nelson, C. (1999). *State-Space Models with Regime-Switching: Classical and Gibbs-Sampling Approaches with Applications*. MIT Press, Cambridge, Massachusetts.
-
+ 
 - King, R. G., Plosser, C. I., Stock, J. H., & Watson, M. W. *Stochastic Trends and Economic Fluctuations*.
 
 - Doornik, J. A. (2013). *A Markov-switching model with component structure for US GNP*. Economics Letters, 118, 265–268.
