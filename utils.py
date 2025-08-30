@@ -10,8 +10,8 @@ def build_transition(theta, mask=None, absorbing_last=False, triangular=False):
     """
     Map unconstrained square matrix theta -> row-stochastic transition matrix.
     Optionally impose:
-      - absorbing_last: last state is absorbing (last row is [0,...,0,1])
-      - triangular: zero out strictly lower triangle (no backward transitions), renormalize each row
+        - absorbing_last: last state is absorbing (last row is [0,...,0,1])
+        - triangular: zero out strictly lower triangle (no backward transitions), renormalize each row
     mask: boolean matrix where False entries are forced to zero before row-normalization.
     """
     k = theta.shape[0]
